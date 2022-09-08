@@ -29,7 +29,7 @@ public class EmployeeDetails extends HttpServlet {
 		PrintWriter writer = null;
 		FileWriter data = null;
 		try {
-			writer = response.getWriter();   
+			writer = response.getWriter();
 			// HttpSession session = request.getSession();
 			String employee_Id ="PF"+request.getParameter("EmpId");
 			String employee_Name = request.getParameter("EmpName");
